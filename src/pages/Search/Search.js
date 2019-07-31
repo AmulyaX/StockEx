@@ -1,5 +1,6 @@
 import React , {Component} from "react"
 import Axios from 'axios'
+import SearchBar from './SearchBar';
 
 export default class Search extends Component{
 
@@ -32,7 +33,7 @@ export default class Search extends Component{
 
     okShoot(){
         return(
-            <div>Search Bar here</div>
+            <SearchBar items={this.state.names} />
         )
     }
 
