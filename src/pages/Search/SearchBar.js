@@ -2,6 +2,7 @@ import React from 'react';
 import ReactSearchBox from 'react-search-box'
 import Grid from '@material-ui/core/Grid'
 import './vars'
+import Display from './Display'
 
 export default class SearchBar extends React.Component {
     
@@ -41,7 +42,7 @@ export default class SearchBar extends React.Component {
                         threshold: 0.05,
                         }}
                     />
-                {this.state.show} display data
+                {this.state.show && <Display />}
                 </Grid>
             </div>
         </React.Fragment>
