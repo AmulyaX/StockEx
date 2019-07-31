@@ -7,28 +7,28 @@ Credits to https://github.com/flatlogic/react-material-admin for the initial UI 
 
 1. Homepage
 
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/homepage.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/homepage.PNG)
 
 2. Market Watch
 
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/MarketWatch.PNG)
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/MarketWatch2.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/MarketWatch.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/MarketWatch2.PNG)
 
 3. Top Gainers
 
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/TG.PNG)
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/TG2.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/TG.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/TG2.PNG)
 
 4. Top Losers
 
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/TL.PNG)
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/TL2.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/TL.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/TL2.PNG)
 
 5. Search
 
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/Search.PNG)
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/Search2.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/Search.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/Search2.PNG)
 
 6. Currency Conversion
 
-![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/test/screenshots/CurrencyConversion.PNG)
+![ScreenShot](https://raw.githubusercontent.com/AmulyaX/StockEx/master/screenshots/CurrencyConversion.PNG)
