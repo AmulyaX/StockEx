@@ -9,6 +9,7 @@ import {
   ArrowBack as ArrowBackIcon,
   TrendingUp as TUIcon,
   TrendingDown as TDIcon,
+  Search as SearchIcon,
 } from "@material-ui/icons";
 import classNames from 'classnames';
 
@@ -18,7 +19,8 @@ const structure = [
   { id: 0, label: 'Market Watch', link: '/app/dashboard', icon: <HomeIcon /> },
   { id: 1, label: 'Top Gainers', link: '/app/TG', icon: <TUIcon /> },
   { id: 2, label: 'Top Losers', link: '/app/TL', icon: <TDIcon /> },
-  { id: 3, type: 'divider' },
+  { id: 3, label: 'Search', link: '/app/Search', icon: <SearchIcon /> },
+  { id: 4, type: 'divider' },
 ];
 
 const SidebarView = ({ classes, theme, toggleSidebar, isSidebarOpened, isPermanent, location }) => {
