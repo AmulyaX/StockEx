@@ -11,6 +11,7 @@ import Dashboard from '../../pages/dashboard';
 import TopGainers from '../../pages/TG';
 import TopLosers from '../../pages/TL';
 import Search from '../../pages/Search';
+import ExchangeR from '../../pages/ExchangeR';
 
 const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
   <div className={classes.root}>
@@ -26,6 +27,7 @@ const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
             <Route path="/app/TG" component={TopGainers} />
             <Route path="/app/TL" component={TopLosers} />
             <Route path="/app/Search" component={Search} />
+            <Route path="/app/ExchangeR" component={ExchangeR} />
           </Switch>
         </div>
       </React.Fragment>

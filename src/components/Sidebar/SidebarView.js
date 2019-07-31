@@ -10,6 +10,7 @@ import {
   TrendingUp as TUIcon,
   TrendingDown as TDIcon,
   Search as SearchIcon,
+  AttachMoney as MoneyIcon,
 } from "@material-ui/icons";
 import classNames from 'classnames';
 
@@ -20,7 +21,8 @@ const structure = [
   { id: 1, label: 'Top Gainers', link: '/app/TG', icon: <TUIcon /> },
   { id: 2, label: 'Top Losers', link: '/app/TL', icon: <TDIcon /> },
   { id: 3, label: 'Search', link: '/app/Search', icon: <SearchIcon /> },
-  { id: 4, type: 'divider' },
+  { id: 4, label: 'Currency Conversion', link: '/app/ExchangeR', icon: <MoneyIcon /> },
+  { id: 5, type: 'divider' },
 ];
 
 const SidebarView = ({ classes, theme, toggleSidebar, isSidebarOpened, isPermanent, location }) => {
