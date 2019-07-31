@@ -1,6 +1,8 @@
 # StockEx
 A Stock Exchange app with an extra module for Currency Conversion built entirely on ReactJS
+
 Please disable web-secuity in your browser or data won't be fetched, due to CORS policy.
+
 Credits to https://github.com/flatlogic/react-material-admin for the initial UI template.
 
 # Screenshots
