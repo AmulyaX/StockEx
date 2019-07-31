@@ -29,7 +29,7 @@ export default class Dashboard extends Component {
       cardData:{open:[], high:[], low:[], last:[], previousClose:[], percChange:[], yearHigh:[], yearLow:[], indexOrder:[]}
     }
   }
-
+  
   storeData(temp){
     const op=[];
     const hp=[];
@@ -72,7 +72,7 @@ export default class Dashboard extends Component {
 
   fetchStocks() {
     Axios.get('https://nseindia.com/live_market/dynaContent/live_watch/stock_watch/liveIndexWatchData.json').then(res => { 
-      this.data = res.data
+      this.data = this.dumpComma(res.data);
       this.storeData(this.data);
       const labels= [];
       const datasetOP=[];
@@ -100,6 +100,15 @@ export default class Dashboard extends Component {
     }
       )
   }
+
+   dumpComma(com){
+     for(var i=0;i<10;i++) {       
+        com.data[i].open = (com.data[i].open + "").replace(',', '')
+        com.data[i].last = (com.data[i].last + "").replace(',', '')
+        com.data[i].previousClose = (com.data[i].previousClose + "").replace(',', '')
+     }
+     return com;
+   }
 
    render(){
       var chart= this.state.top10
