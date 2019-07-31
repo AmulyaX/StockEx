@@ -29,7 +29,22 @@ export default class Dashboard extends Component {
       cardData:{open:[], high:[], low:[], last:[], previousClose:[], percChange:[], yearHigh:[], yearLow:[], indexOrder:[]}
     }
   }
-  
+
+  fcolor(color){
+    this.customColor=[];
+    for(var j=0;j<10;j++){ 
+       if(color.data[j].last>color.data[j].previousClose){
+         this.customColor[j]="green"
+        }
+        else if(color.data[j].last<color.data[j].previousClose){
+          this.customColor[j]="red"
+        }
+        else{
+          this.customColor[j]="blue"
+        }
+      }
+  }
+
   storeData(temp){
     const op=[];
     const hp=[];
@@ -73,6 +88,7 @@ export default class Dashboard extends Component {
   fetchStocks() {
     Axios.get('https://nseindia.com/live_market/dynaContent/live_watch/stock_watch/liveIndexWatchData.json').then(res => { 
       this.data = this.dumpComma(res.data);
+      this.fcolor(this.data);
       this.storeData(this.data);
       const labels= [];
       const datasetOP=[];
@@ -88,10 +104,12 @@ export default class Dashboard extends Component {
           datasets:[
             {
               label:'Open Price',
+              backgroundColor:this.customColor,
               data: datasetOP
             },
             {
               label:'Close Price',
+              backgroundColor:"black",
               data: datasetLTP
             }
           ]
