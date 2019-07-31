@@ -7,6 +7,7 @@ import {
 import {
   Home as HomeIcon,
   ArrowBack as ArrowBackIcon,
+  TrendingUp as TUIcon,
 } from "@material-ui/icons";
 import classNames from 'classnames';
 
@@ -14,7 +15,8 @@ import SidebarLink from './components/SidebarLink/SidebarLinkContainer';
 
 const structure = [
   { id: 0, label: 'Market Watch', link: '/app/dashboard', icon: <HomeIcon /> },
-  { id: 1, type: 'divider' },
+  { id: 1, label: 'Top Gainers', link: '/app/TG', icon: <TUIcon /> },
+  { id: 2, type: 'divider' },
 ];
 
 const SidebarView = ({ classes, theme, toggleSidebar, isSidebarOpened, isPermanent, location }) => {
