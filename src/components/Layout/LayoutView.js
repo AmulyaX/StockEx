@@ -9,6 +9,7 @@ import Sidebar from '../Sidebar';
 // pages
 import Dashboard from '../../pages/dashboard';
 import TopGainers from '../../pages/TG';
+import TopLosers from '../../pages/TL';
 
 const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
   <div className={classes.root}>
@@ -22,6 +23,7 @@ const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
           <Switch>
             <Route path="/app/dashboard" component={Dashboard} />
             <Route path="/app/TG" component={TopGainers} />
+            <Route path="/app/TL" component={TopLosers} />
           </Switch>
         </div>
       </React.Fragment>
