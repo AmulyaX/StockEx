@@ -5,7 +5,7 @@ Credits to https://github.com/flatlogic/react-material-admin for the initial UI 
 
 # How-to-use
 ```
-git clone https://github.com/AmulyaX/StockEx -b master StockEx
+git clone https://github.com/AmulyaX/StockEx.git -b master StockEx
 
 cd StockEx
 
